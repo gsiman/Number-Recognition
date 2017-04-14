@@ -9,8 +9,7 @@ public class NeuronHidden : MonoBehaviour {
     private int[] topLeft = new int[2];                 //top left corner of image drawn
     private int[] bottomRight = new int[2];             //bottom right corner of image drawn
     private int[] resolution = new int[2];              //resolution of image drawn
-
-    public float[,] weightGradient = new float[3, 5];   //weight Gradient used to determine output
+    
     public float[,] weights;                            //weights applied to image values
                                                             //this matrix is created from weight gradient
     public float output;                                //output of neuron
@@ -27,15 +26,7 @@ public class NeuronHidden : MonoBehaviour {
     private float yRatio;                               //1/(y dir image size)
 
     //the other neurons
-    public NeuronHidden neuron1;
-    public NeuronHidden neuron2;
-    public NeuronHidden neuron3;
-    public NeuronHidden neuron4;
-    public NeuronHidden neuron5;
-    public NeuronHidden neuron6;
-    public NeuronHidden neuron7;
-    public NeuronHidden neuron8;
-    public NeuronHidden neuron9;
+    public NeuronHidden[] otherNeurons = new NeuronHidden[9];
 
     public Material off;
     public Material on;
@@ -47,55 +38,6 @@ public class NeuronHidden : MonoBehaviour {
         topLeft[1] = 0;         //y val
         bottomRight[0] = 0;     //x val
         bottomRight[1] = 10;    //y val
-        //get the trained weights and threshold 
-        switch (number)
-        {
-            case 0:
-                weightGradient = GameControl.control.weight0;
-                threshold = GameControl.control.threshold0;
-                break;
-            case 1:
-                weightGradient = GameControl.control.weight1;
-                threshold = GameControl.control.threshold1;
-                break;
-            case 2:
-                weightGradient = GameControl.control.weight2;
-                threshold = GameControl.control.threshold2;
-                break;
-            case 3:
-                weightGradient = GameControl.control.weight3;
-                threshold = GameControl.control.threshold3;
-                break;
-            case 4:
-                weightGradient = GameControl.control.weight4;
-                threshold = GameControl.control.threshold4;
-                break;
-            case 5:
-                weightGradient = GameControl.control.weight5;
-                threshold = GameControl.control.threshold5;
-                break;
-            case 6:
-                weightGradient = GameControl.control.weight6;
-                threshold = GameControl.control.threshold6;
-                break;
-            case 7:
-                weightGradient = GameControl.control.weight7;
-                threshold = GameControl.control.threshold7;
-                break;
-            case 8:
-                weightGradient = GameControl.control.weight8;
-                threshold = GameControl.control.threshold8;
-                break;
-            case 9:
-                weightGradient = GameControl.control.weight9;
-                threshold = GameControl.control.threshold9;
-                break;
-        }
-        /*
-        for (int i=4; i>-1; i--)
-        {
-            print(weightGradient[0, i] + " " + weightGradient[1, i] + " " + weightGradient[2, i]);
-        }*/
 
         GetComponent<Renderer>().material = off;
     }
@@ -107,17 +49,12 @@ public class NeuronHidden : MonoBehaviour {
         //set answer to true because this was chosen
         answer = true;
         Output();
-        answer = false;        
-        
-        neuron1.Output();
-        neuron2.Output();
-        neuron3.Output();
-        neuron4.Output();
-        neuron5.Output();
-        neuron6.Output();
-        neuron7.Output();
-        neuron8.Output();
-        neuron9.Output();
+        answer = false;
+
+        for (int i = 0; i < 9; i++)
+        {
+            otherNeurons[i].Output();
+        }            
     }
 
     public void Output()
@@ -186,44 +123,44 @@ public class NeuronHidden : MonoBehaviour {
                 //interpolation along y axis
                 if (yRatio * (j + 1) < 16.7)
                 {
-                    weights[(int)i, (int)j] = weightGradient[q, 0] + weights[(int)i, (int)j];
+                    weights[(int)i, (int)j] = GameControl.control.weights[number, q, 0] + weights[(int)i, (int)j];
                 }
                 else if (ySpot < 33.4)
                 {
-                    weights[(int)i, (int)j] = weightGradient[q, 0] * (33.3f - ySpot) / 16.7f + weightGradient[q, 1] * (ySpot - 16.7f) / 16.7f + weights[(int)i, (int)j];
+                    weights[(int)i, (int)j] = GameControl.control.weights[number, q, 0] * (33.3f - ySpot) / 16.7f + GameControl.control.weights[number, q, 1] * (ySpot - 16.7f) / 16.7f + weights[(int)i, (int)j];
                 }
                 else if (ySpot < 50.1)
                 {
-                    weights[(int)i, (int)j] = weightGradient[q, 1] * (50f - ySpot) / 16.7f + weightGradient[q, 2] * (ySpot - 33.3f) / 16.7f + weights[(int)i, (int)j];
+                    weights[(int)i, (int)j] = GameControl.control.weights[number, q, 1] * (50f - ySpot) / 16.7f + GameControl.control.weights[number, q, 2] * (ySpot - 33.3f) / 16.7f + weights[(int)i, (int)j];
                 }
                 else if (ySpot < 66.7)
                 {
-                    weights[(int)i, (int)j] = weightGradient[q, 2] * (66.7f - ySpot) / 16.7f + weightGradient[q, 3] * (ySpot - 50f) / 16.7f + weights[(int)i, (int)j];
+                    weights[(int)i, (int)j] = GameControl.control.weights[number, q, 2] * (66.7f - ySpot) / 16.7f + GameControl.control.weights[number, q, 3] * (ySpot - 50f) / 16.7f + weights[(int)i, (int)j];
                 }
                 else if (ySpot < 83.4)
                 {
-                    weights[(int)i, (int)j] = weightGradient[q, 3] * (83.3f - ySpot) / 16.7f + weightGradient[q, 4] * (ySpot - 66.7f) / 16.7f + weights[(int)i, (int)j];
+                    weights[(int)i, (int)j] = GameControl.control.weights[number, q, 3] * (83.3f - ySpot) / 16.7f + GameControl.control.weights[number, q, 4] * (ySpot - 66.7f) / 16.7f + weights[(int)i, (int)j];
                 }
                 else
                 {
-                    weights[(int)i, (int)j] = weightGradient[q, 4] + weights[(int)i, (int)j];
+                    weights[(int)i, (int)j] = GameControl.control.weights[number, q, 4] + weights[(int)i, (int)j];
                 }
                 //interpolation along x axis
                 if (xRatio * (i + 1) < 25)
                 {
-                    weights[(int)i, (int)j] = weightGradient[0, r] + weights[(int)i, (int)j];
+                    weights[(int)i, (int)j] = GameControl.control.weights[number, 0, r] + weights[(int)i, (int)j];
                 }
                 else if (xSpot < 50)
                 {
-                    weights[(int)i, (int)j] = weightGradient[0, r] * (50f - xSpot) / 25f + weightGradient[1, r] * (xSpot - 25f) / 25f + weights[(int)i, (int)j];
+                    weights[(int)i, (int)j] = GameControl.control.weights[number, 0, r] * (50f - xSpot) / 25f + GameControl.control.weights[number, 1, r] * (xSpot - 25f) / 25f + weights[(int)i, (int)j];
                 }
                 else if (xSpot < 75)
                 {
-                    weights[(int)i, (int)j] = weightGradient[1, r] * (75f - xSpot) / 25f + weightGradient[2, r] * (xSpot - 50f) / 25f + weights[(int)i, (int)j];
+                    weights[(int)i, (int)j] = GameControl.control.weights[number, 1, r] * (75f - xSpot) / 25f + GameControl.control.weights[number, 2, r] * (xSpot - 50f) / 25f + weights[(int)i, (int)j];
                 }
                 else
                 {
-                    weights[(int)i, (int)j] = weightGradient[2, r] + weights[(int)i, (int)j];
+                    weights[(int)i, (int)j] = GameControl.control.weights[number, 2, r] + weights[(int)i, (int)j];
                 }                
             }
         }
@@ -247,39 +184,7 @@ public class NeuronHidden : MonoBehaviour {
         {
             signal = true;
             //record the amount that the output is greater by the threshold by
-            switch (number)
-            {
-                case 0:
-                    GameControl.control.margin0 = output;
-                    break;
-                case 1:
-                    GameControl.control.margin1 = output;
-                    break;
-                case 2:
-                    GameControl.control.margin2 = output;
-                    break;
-                case 3:
-                    GameControl.control.margin3 = output;
-                    break;
-                case 4:
-                    GameControl.control.margin4 = output;
-                    break;
-                case 5:
-                    GameControl.control.margin5 = output;
-                    break;
-                case 6:
-                    GameControl.control.margin6 = output;
-                    break;
-                case 7:
-                    GameControl.control.margin7 = output;
-                    break;
-                case 8:
-                    GameControl.control.margin8 = output;
-                    break;
-                case 9:
-                    GameControl.control.margin9 = output;
-                    break;
-            }
+            GameControl.control.margins[number] = output;
         }
         //the threshold was not reached
         else
@@ -287,39 +192,7 @@ public class NeuronHidden : MonoBehaviour {
             signal = false;
         }
         //let main controller know that this neuron is done with calculations
-        switch (number)
-        {
-            case 0:
-                GameControl.control.update0 = true;
-                break;
-            case 1:
-                GameControl.control.update1 = true;
-                break;
-            case 2:
-                GameControl.control.update2 = true;
-                break;
-            case 3:
-                GameControl.control.update3 = true;
-                break;
-            case 4:
-                GameControl.control.update4 = true;
-                break;
-            case 5:
-                GameControl.control.update5 = true;
-                break;
-            case 6:
-                GameControl.control.update6 = true;
-                break;
-            case 7:
-                GameControl.control.update7 = true;
-                break;
-            case 8:
-                GameControl.control.update8 = true;
-                break;
-            case 9:
-                GameControl.control.update9 = true;
-                break;
-        }
+        GameControl.control.updates[number] = true;
 
         //if calibrating
         if (calibrating)
@@ -398,56 +271,11 @@ public class NeuronHidden : MonoBehaviour {
                     //make it easier to say it is this number by decreasing the threshold
                     threshold -= thresholdAdj;
                 }
-            }
-
-            //update GameControl with weights and threshold
-            switch (number)
-            {
-                case 0:
-                    GameControl.control.weight0 = weightGradient;
-                    GameControl.control.threshold0 = threshold;
-                    break;
-                case 1:
-                    GameControl.control.weight1 = weightGradient;
-                    GameControl.control.threshold1 = threshold;
-                    break;
-                case 2:
-                    GameControl.control.weight2 = weightGradient;
-                    GameControl.control.threshold2 = threshold;
-                    break;
-                case 3:
-                    GameControl.control.weight3 = weightGradient;
-                    GameControl.control.threshold3 = threshold;
-                    break;
-                case 4:
-                    GameControl.control.weight4 = weightGradient;
-                    GameControl.control.threshold4 = threshold;
-                    break;
-                case 5:
-                    GameControl.control.weight5 = weightGradient;
-                    GameControl.control.threshold5 = threshold;
-                    break;
-                case 6:
-                    GameControl.control.weight6 = weightGradient;
-                    GameControl.control.threshold6 = threshold;
-                    break;
-                case 7:
-                    GameControl.control.weight7 = weightGradient;
-                    GameControl.control.threshold7 = threshold;
-                    break;
-                case 8:
-                    GameControl.control.weight8 = weightGradient;
-                    GameControl.control.threshold8 = threshold;
-                    break;
-                case 9:
-                    GameControl.control.weight9 = weightGradient;
-                    GameControl.control.threshold9 = threshold;
-                    break;
-            }
+            }            
         }
     }
 
-    //called if this was the best answer
+    //called if this was the best answer, this feedback will always be negative
     //if the AI was correct in guessing the number this is called assuming that the answer is wrong
         //this cancels all the adjustments made at the end of Output() for the same neuron
         //by cancelling the previous adjustments when the AI is already outputting the correct number,
@@ -457,192 +285,74 @@ public class NeuronHidden : MonoBehaviour {
         GetComponent<Renderer>().material = on;
         if (calibrating)
         {
-            if (answer)
+            for (float i = 0; i < resolution[0]; i++)
             {
-                for (float i = 0; i < resolution[0]; i++)
+                for (float j = 0; j < resolution[1]; j++)
                 {
-                    for (float j = 0; j < resolution[1]; j++)
+                    int q = (int)Mathf.Round((i + 1) * xRatio / 100 * 4) - 1;
+                    int r = (int)Mathf.Round((j + 1) * yRatio / 100 * 6) - 1;
+                    float ySpot = yRatio * (j + 1);
+                    float xSpot = xRatio * (i + 1);
+                    //interpolation along y axis
+                    if (ySpot < 16.7)
                     {
-                        int q = (int)Mathf.Round((i + 1) * xRatio / 100 * 4) - 1;
-                        int r = (int)Mathf.Round((j + 1) * yRatio / 100 * 6) - 1;
-                        float ySpot = yRatio * (j + 1);
-                        float xSpot = xRatio * (i + 1);
-                        //interpolation along y axis
-                        if (ySpot < 16.7)
-                        {
-                            PositiveAdjustment(q, 0);
-                        }
-                        else if (ySpot < 33.4)
-                        {
-                            PositiveAdjustment(q, 0);
-                            PositiveAdjustment(q, 1);
-                        }
-                        else if (ySpot < 50.1)
-                        {
-                            PositiveAdjustment(q, 1);
-                            PositiveAdjustment(q, 2);
-                        }
-                        else if (ySpot < 66.7)
-                        {
-                            PositiveAdjustment(q, 2);
-                            PositiveAdjustment(q, 3);
-                        }
-                        else if (ySpot < 83.4)
-                        {
-                            PositiveAdjustment(q, 3);
-                            PositiveAdjustment(q, 4);
-                        }
-                        else
-                        {
-                            PositiveAdjustment(q, 4);
-                        }
-                        //interpolation along x axis
-                        if (xSpot < 25)
-                        {
-                            PositiveAdjustment(0, r);
-                        }
-                        else if (xSpot < 50)
-                        {
-                            PositiveAdjustment(0, r);
-                            PositiveAdjustment(1, r);
-                        }
-                        else if (xSpot < 75)
-                        {
-                            PositiveAdjustment(1, r);
-                            PositiveAdjustment(2, r);
-                        }
-                        else
-                        {
-                            PositiveAdjustment(2, r);
-                        }
+                        NegativeAdjustment(q, 0);
+                    }
+                    else if (ySpot < 33.4)
+                    {
+                        NegativeAdjustment(q, 0);
+                        NegativeAdjustment(q, 1);
+                    }
+                    else if (ySpot < 50.1)
+                    {
+                        NegativeAdjustment(q, 1);
+                        NegativeAdjustment(q, 2);
+                    }
+                    else if (ySpot < 66.7)
+                    {
+                        NegativeAdjustment(q, 2);
+                        NegativeAdjustment(q, 3);
+                    }
+                    else if (ySpot < 83.4)
+                    {
+                        NegativeAdjustment(q, 3);
+                        NegativeAdjustment(q, 4);
+                    }
+                    else
+                    {
+                        NegativeAdjustment(q, 4);
+                    }
+                    //interpolation along x axis
+                    if (xRatio * (i + 1) < 25)
+                    {
+                        NegativeAdjustment(0, r);
+                    }
+                    else if (xSpot < 50)
+                    {
+                        NegativeAdjustment(0, r);
+                        NegativeAdjustment(1, r);
+                    }
+                    else if (xSpot < 75)
+                    {
+                        NegativeAdjustment(1, r);
+                        NegativeAdjustment(2, r);
+                    }
+                    else
+                    {
+                        NegativeAdjustment(2, r);
                     }
                 }
-                if (signal)
-                {
-                    //good decision, no action is needed
-                    //threshold += adjustment;
-                }
-                else
-                {
-                    //make it easier to say it is this number
-                    threshold -= thresholdAdj;
-                }
+            }
+            if (signal)
+            {
+                //make it more difficult to say it is this number to avoid false positives
+                threshold += thresholdAdj;
             }
             else
             {
-                for (float i = 0; i < resolution[0]; i++)
-                {
-                    for (float j = 0; j < resolution[1]; j++)
-                    {
-                        int q = (int)Mathf.Round((i + 1) * xRatio / 100 * 4) - 1;
-                        int r = (int)Mathf.Round((j + 1) * yRatio / 100 * 6) - 1;
-                        float ySpot = yRatio * (j + 1);
-                        float xSpot = xRatio * (i + 1);
-                        //interpolation along y axis
-                        if (ySpot < 16.7)
-                        {
-                            NegativeAdjustment(q, 0);
-                        }
-                        else if (ySpot < 33.4)
-                        {
-                            NegativeAdjustment(q, 0);
-                            NegativeAdjustment(q, 1);
-                        }
-                        else if (ySpot < 50.1)
-                        {
-                            NegativeAdjustment(q, 1);
-                            NegativeAdjustment(q, 2);
-                        }
-                        else if (ySpot < 66.7)
-                        {
-                            NegativeAdjustment(q, 2);
-                            NegativeAdjustment(q, 3);
-                        }
-                        else if (ySpot < 83.4)
-                        {
-                            NegativeAdjustment(q, 3);
-                            NegativeAdjustment(q, 4);
-                        }
-                        else
-                        {
-                            NegativeAdjustment(q, 4);
-                        }
-                        //interpolation along x axis
-                        if (xRatio * (i + 1) < 25)
-                        {
-                            NegativeAdjustment(0, r);
-                        }
-                        else if (xSpot < 50)
-                        {
-                            NegativeAdjustment(0, r);
-                            NegativeAdjustment(1, r);
-                        }
-                        else if (xSpot < 75)
-                        {
-                            NegativeAdjustment(1, r);
-                            NegativeAdjustment(2, r);
-                        }
-                        else
-                        {
-                            NegativeAdjustment(2, r);
-                        }
-                    }
-                }
-                if (signal)
-                {
-                    //make it more difficult to say it is this number to avoid false positives
-                    threshold += thresholdAdj;
-                }
-                else
-                {
-                    //good decision, no action is needed
-                    //threshold -= adjustment;
-                }
-            }
-            //update GameControl with weights and threshold
-            switch (number)
-            {
-                case 0:
-                    GameControl.control.weight0 = weightGradient;
-                    GameControl.control.threshold0 = threshold;
-                    break;
-                case 1:
-                    GameControl.control.weight1 = weightGradient;
-                    GameControl.control.threshold1 = threshold;
-                    break;
-                case 2:
-                    GameControl.control.weight2 = weightGradient;
-                    GameControl.control.threshold2 = threshold;
-                    break;
-                case 3:
-                    GameControl.control.weight3 = weightGradient;
-                    GameControl.control.threshold3 = threshold;
-                    break;
-                case 4:
-                    GameControl.control.weight4 = weightGradient;
-                    GameControl.control.threshold4 = threshold;
-                    break;
-                case 5:
-                    GameControl.control.weight5 = weightGradient;
-                    GameControl.control.threshold5 = threshold;
-                    break;
-                case 6:
-                    GameControl.control.weight6 = weightGradient;
-                    GameControl.control.threshold6 = threshold;
-                    break;
-                case 7:
-                    GameControl.control.weight7 = weightGradient;
-                    GameControl.control.threshold7 = threshold;
-                    break;
-                case 8:
-                    GameControl.control.weight8 = weightGradient;
-                    GameControl.control.threshold8 = threshold;
-                    break;
-                case 9:
-                    GameControl.control.weight9 = weightGradient;
-                    GameControl.control.threshold9 = threshold;
-                    break;
-            }
+                //good decision, no action is needed
+                //threshold -= adjustment;
+            }            
         }
     }
 
@@ -651,25 +361,25 @@ public class NeuronHidden : MonoBehaviour {
     {
         //print("x,y = " + x + "," + y);
 
-        if (weightGradient[x, y] > 0)
+        if (GameControl.control.weights[number, x, y] > 0)
         {
-            weightGradient[x, y] += adjustment;
+            GameControl.control.weights[number, x, y] += adjustment;
         }
-        if (weightGradient[x, y] < 0)
+        if (GameControl.control.weights[number, x, y] < 0)
         {
-            weightGradient[x, y] -= adjustment;
+            GameControl.control.weights[number, x, y] -= adjustment;
         }
     }
     //if the orginial weightGradient value was use to turn the neuron on while it was the wrong answer
     void NegativeAdjustment(int x, int y)
     {
-        if (weightGradient[x, y] > 0)
+        if (GameControl.control.weights[number, x, y] > 0)
         {
-            weightGradient[x, y] -= adjustment;
+            GameControl.control.weights[number, x, y] -= adjustment;
         }
-        if (weightGradient[x, y] < 0)
+        if (GameControl.control.weights[number, x, y] < 0)
         {
-            weightGradient[x, y] += adjustment;
+            GameControl.control.weights[number, x, y] += adjustment;
         }
     }
 }

@@ -134,16 +134,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -242,16 +243,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -414,16 +416,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -522,16 +525,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -630,16 +634,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -774,16 +779,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -882,16 +888,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -990,16 +997,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -1098,16 +1106,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -1206,16 +1215,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -1378,16 +1388,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -1473,16 +1484,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 604e7e9e18016254f9948fa20691db29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: dce35cdeff9a6d14e95d647c9b3ffc3a, type: 2}
   on: {fileID: 2100000, guid: 649e6e071cf415b46980eaed4e937577, type: 2}
@@ -1585,15 +1597,16 @@ MonoBehaviour:
   signal: 0
   answer: 0
   calibrating: 0
-  neuron1: {fileID: 1413807058}
-  neuron2: {fileID: 1906954785}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  otherNeurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   off: {fileID: 2100000, guid: dce35cdeff9a6d14e95d647c9b3ffc3a, type: 2}
   on: {fileID: 2100000, guid: 649e6e071cf415b46980eaed4e937577, type: 2}
 --- !u!23 &163014122
@@ -1703,16 +1716,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -1811,16 +1825,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -1912,15 +1927,16 @@ MonoBehaviour:
   signal: 0
   answer: 0
   calibrating: 0
-  neuron1: {fileID: 1413807058}
-  neuron2: {fileID: 1906954785}
-  neuron3: {fileID: 163014121}
-  neuron4: {fileID: 265255051}
-  neuron5: {fileID: 1563192141}
-  neuron6: {fileID: 1164419119}
-  neuron7: {fileID: 1261021946}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  otherNeurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   off: {fileID: 2100000, guid: dce35cdeff9a6d14e95d647c9b3ffc3a, type: 2}
   on: {fileID: 2100000, guid: 649e6e071cf415b46980eaed4e937577, type: 2}
 --- !u!23 &226224476
@@ -2102,16 +2118,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -2203,15 +2220,16 @@ MonoBehaviour:
   signal: 0
   answer: 0
   calibrating: 0
-  neuron1: {fileID: 1413807058}
-  neuron2: {fileID: 1906954785}
-  neuron3: {fileID: 163014121}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  otherNeurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   off: {fileID: 2100000, guid: dce35cdeff9a6d14e95d647c9b3ffc3a, type: 2}
   on: {fileID: 2100000, guid: 649e6e071cf415b46980eaed4e937577, type: 2}
 --- !u!23 &265255052
@@ -2321,16 +2339,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -2491,16 +2510,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -2599,16 +2619,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -2707,16 +2728,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -2815,16 +2837,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -2923,16 +2946,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -3031,16 +3055,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -3139,16 +3164,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -3283,16 +3309,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -3391,16 +3418,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -3499,16 +3527,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -3607,16 +3636,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -3715,16 +3745,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -3823,16 +3854,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -4018,16 +4050,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -4126,16 +4159,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -4234,16 +4268,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -4342,16 +4377,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -4450,16 +4486,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -4558,16 +4595,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -4794,16 +4832,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -4902,16 +4941,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -5010,16 +5050,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -5182,16 +5223,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -5290,16 +5332,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -5398,16 +5441,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -5499,15 +5543,16 @@ MonoBehaviour:
   signal: 0
   answer: 0
   calibrating: 0
-  neuron1: {fileID: 1413807058}
-  neuron2: {fileID: 1906954785}
-  neuron3: {fileID: 163014121}
-  neuron4: {fileID: 265255051}
-  neuron5: {fileID: 1563192141}
-  neuron6: {fileID: 1164419119}
-  neuron7: {fileID: 1261021946}
-  neuron8: {fileID: 226224475}
-  neuron9: {fileID: 1881132018}
+  otherNeurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 1881132018}
   off: {fileID: 2100000, guid: dce35cdeff9a6d14e95d647c9b3ffc3a, type: 2}
   on: {fileID: 2100000, guid: 649e6e071cf415b46980eaed4e937577, type: 2}
 --- !u!23 &936763616
@@ -5617,16 +5662,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -5789,16 +5835,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -5933,16 +5980,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -6092,46 +6140,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bedaddb1bd8a124dac36d06bab76ae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
-  threshold0: 0
-  threshold1: 0
-  threshold2: 0
-  threshold3: 0
-  threshold4: 0
-  threshold5: 0
-  threshold6: 0
-  threshold7: 0
-  threshold8: 0
-  threshold9: 0
-  margin0: 0
-  margin1: 0
-  margin2: 0
-  margin3: 0
-  margin4: 0
-  margin5: 0
-  margin6: 0
-  margin7: 0
-  margin8: 0
-  margin9: 0
-  update0: 0
-  update1: 0
-  update2: 0
-  update3: 0
-  update4: 0
-  update5: 0
-  update6: 0
-  update7: 0
-  update8: 0
-  update9: 0
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
+  thresholds:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  margins:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  updates: 00000000000000000000
   answer: 
 --- !u!1 &1095354960
 GameObject:
@@ -6269,15 +6311,16 @@ MonoBehaviour:
   signal: 0
   answer: 0
   calibrating: 0
-  neuron1: {fileID: 1413807058}
-  neuron2: {fileID: 1906954785}
-  neuron3: {fileID: 163014121}
-  neuron4: {fileID: 265255051}
-  neuron5: {fileID: 1563192141}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  otherNeurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   off: {fileID: 2100000, guid: dce35cdeff9a6d14e95d647c9b3ffc3a, type: 2}
   on: {fileID: 2100000, guid: 649e6e071cf415b46980eaed4e937577, type: 2}
 --- !u!23 &1164419120
@@ -6387,16 +6430,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -6495,16 +6539,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -6603,16 +6648,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -6711,16 +6757,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -6819,16 +6866,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -6927,16 +6975,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -7156,15 +7205,16 @@ MonoBehaviour:
   signal: 0
   answer: 0
   calibrating: 0
-  neuron1: {fileID: 1413807058}
-  neuron2: {fileID: 1906954785}
-  neuron3: {fileID: 163014121}
-  neuron4: {fileID: 265255051}
-  neuron5: {fileID: 1563192141}
-  neuron6: {fileID: 1164419119}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  otherNeurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   off: {fileID: 2100000, guid: dce35cdeff9a6d14e95d647c9b3ffc3a, type: 2}
   on: {fileID: 2100000, guid: 649e6e071cf415b46980eaed4e937577, type: 2}
 --- !u!23 &1261021947
@@ -7274,16 +7324,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -7382,16 +7433,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -7553,16 +7605,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -7661,16 +7714,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -7769,16 +7823,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -7870,15 +7925,16 @@ MonoBehaviour:
   signal: 0
   answer: 0
   calibrating: 0
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  otherNeurons:
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   off: {fileID: 2100000, guid: dce35cdeff9a6d14e95d647c9b3ffc3a, type: 2}
   on: {fileID: 2100000, guid: 649e6e071cf415b46980eaed4e937577, type: 2}
 --- !u!23 &1413807059
@@ -7988,16 +8044,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -8096,16 +8153,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -8204,16 +8262,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -8312,16 +8371,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -8407,16 +8467,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -8528,16 +8589,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -8629,15 +8691,16 @@ MonoBehaviour:
   signal: 0
   answer: 0
   calibrating: 0
-  neuron1: {fileID: 1413807058}
-  neuron2: {fileID: 1906954785}
-  neuron3: {fileID: 163014121}
-  neuron4: {fileID: 265255051}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  otherNeurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   off: {fileID: 2100000, guid: dce35cdeff9a6d14e95d647c9b3ffc3a, type: 2}
   on: {fileID: 2100000, guid: 649e6e071cf415b46980eaed4e937577, type: 2}
 --- !u!23 &1563192142
@@ -8747,16 +8810,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -8855,16 +8919,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -8963,16 +9028,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -9071,16 +9137,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -9279,16 +9346,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -9387,16 +9455,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -9495,16 +9564,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -9603,16 +9673,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -9711,16 +9782,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -9883,16 +9955,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -9991,16 +10064,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -10213,16 +10287,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e133eb91c63ae541bb6e8c60454853c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
 --- !u!1 &1860284789
 GameObject:
   m_ObjectHideFlags: 0
@@ -10266,16 +10341,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -10367,15 +10443,16 @@ MonoBehaviour:
   signal: 0
   answer: 0
   calibrating: 0
-  neuron1: {fileID: 1413807058}
-  neuron2: {fileID: 1906954785}
-  neuron3: {fileID: 163014121}
-  neuron4: {fileID: 265255051}
-  neuron5: {fileID: 1563192141}
-  neuron6: {fileID: 1164419119}
-  neuron7: {fileID: 1261021946}
-  neuron8: {fileID: 226224475}
-  neuron9: {fileID: 936763615}
+  otherNeurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
   off: {fileID: 2100000, guid: dce35cdeff9a6d14e95d647c9b3ffc3a, type: 2}
   on: {fileID: 2100000, guid: 649e6e071cf415b46980eaed4e937577, type: 2}
 --- !u!23 &1881132019
@@ -10485,16 +10562,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -10586,15 +10664,16 @@ MonoBehaviour:
   signal: 0
   answer: 0
   calibrating: 0
-  neuron1: {fileID: 1413807058}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  otherNeurons:
+  - {fileID: 1413807058}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   off: {fileID: 2100000, guid: dce35cdeff9a6d14e95d647c9b3ffc3a, type: 2}
   on: {fileID: 2100000, guid: 649e6e071cf415b46980eaed4e937577, type: 2}
 --- !u!23 &1906954786
@@ -10704,16 +10783,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -10848,16 +10928,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -10956,16 +11037,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -11064,16 +11146,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -11308,16 +11391,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -11480,16 +11564,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
@@ -11588,16 +11673,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02b9ea454e5b30c4a8c8004b50aa276f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neuron0: {fileID: 1413807058}
-  neuron1: {fileID: 1906954785}
-  neuron2: {fileID: 163014121}
-  neuron3: {fileID: 265255051}
-  neuron4: {fileID: 1563192141}
-  neuron5: {fileID: 1164419119}
-  neuron6: {fileID: 1261021946}
-  neuron7: {fileID: 226224475}
-  neuron8: {fileID: 936763615}
-  neuron9: {fileID: 1881132018}
+  neurons:
+  - {fileID: 1413807058}
+  - {fileID: 1906954785}
+  - {fileID: 163014121}
+  - {fileID: 265255051}
+  - {fileID: 1563192141}
+  - {fileID: 1164419119}
+  - {fileID: 1261021946}
+  - {fileID: 226224475}
+  - {fileID: 936763615}
+  - {fileID: 1881132018}
   lit: 0
   off: {fileID: 2100000, guid: 99c2fb1ac238b4946898a5c9a7e5af00, type: 2}
   on: {fileID: 2100000, guid: 0ebca5ff0fa5caa418f0589c38893ef4, type: 2}
