@@ -17,41 +17,17 @@ Platform assembly: P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recog
 Loading P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.042 seconds
+- Completed reload, in  0.040 seconds
 Platform assembly: P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.421689 ms
-P:/ProfessionalBackUp/Programming/Unity Practice/Number-Recognition/NumberRecognition_Data
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Load Successful
+UnloadTime: 1.632400 ms
+No file to load
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1450 -> priority: 1 
-it's a 4
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-it's a 8
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-it's a 9
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-it's a 5
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-it's a 6
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
+  Thread -> id: 1120 -> priority: 1 

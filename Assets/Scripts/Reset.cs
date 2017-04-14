@@ -51,6 +51,7 @@ public class Reset : MonoBehaviour {
         for (int i=0; i<10; i++) {
             GameControl.control.thresholds[i] = neurons[i].threshold = 0;
         }
-        print("reset weights");
+        GameControl.control.status = "Weights set to default values";
+        print(GameControl.control.status);
     }
 }

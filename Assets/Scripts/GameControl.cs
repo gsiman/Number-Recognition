@@ -19,13 +19,14 @@ public class GameControl : MonoBehaviour
     public bool[] updates = new bool[10];
 
     public string answer;
+    public string status = "You haven't pressed anything yet";
 
     //called first, load the trained file
     void Awake()
     {
-        print(Application.dataPath);
         control = this;
         Load();
+        print(status);
     }
 
     //runtime loop
@@ -53,6 +54,7 @@ public class GameControl : MonoBehaviour
     public void OnMouseDown()
     {
         Save();
+        print(status);
     }
 
     //save function
@@ -67,7 +69,7 @@ public class GameControl : MonoBehaviour
         data.thresholds = thresholds;
         bf.Serialize(file, data);
         file.Close();
-        print("Save Successful");
+        status = "Save Successful";
     }
 
     //load function
@@ -84,21 +86,20 @@ public class GameControl : MonoBehaviour
             //list of units and equipment info
             weights = data.weights;
             thresholds = data.thresholds;
-            print("Load Successful");
+            status = "Load Successful";
         }
         else
         {
-            print("No file to load");
+            status = "No file to load";
         }
     }
 
     //print to screen
     void OnGUI()
     {
-        GUI.Label(new Rect(0, 15, 200, 200), "Click on 'pixels' to turn on");
-        GUI.Label(new Rect(0, 30, 300, 200), "Click on any of the red blocks below");
-        GUI.Label(new Rect(0, 45, 200, 200), "It will not effect results");
-        GUI.Label(new Rect(0, 60, 200, 200), "Answer will appear below:");
+        GUI.Label(new Rect(0, 15, 200, 200), "For instructions refer to README");
+        GUI.Label(new Rect(0, 45, 300, 200), "Status: " + status);
+        GUI.Label(new Rect(0, 60, 200, 200), "Neural Net Interpretation:");
         GUI.Label(new Rect(0, 75, 200, 200), answer);
     }
 }

@@ -21,7 +21,8 @@ public class CalibratingSwitch : MonoBehaviour
             for (int i = 0; i < 10; i++)
             {
                 neurons[i].calibrating = false;
-            }                
+            }
+            GameControl.control.status = "Calibration mode OFF";
         }
         else
         {
@@ -31,6 +32,9 @@ public class CalibratingSwitch : MonoBehaviour
             {
                 neurons[i].calibrating = true;
             }
-        }        
+            GameControl.control.status = "Calibration mode ON";
+        }
+                
+        print(GameControl.control.status);
     }
 }

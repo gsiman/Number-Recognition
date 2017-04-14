@@ -46,15 +46,31 @@ public class NeuronHidden : MonoBehaviour {
     //user selection is only important for training
     public void OnMouseDown()
     {
-        //set answer to true because this was chosen
-        answer = true;
-        Output();
-        answer = false;
-
-        for (int i = 0; i < 9; i++)
+        //check to see that at least one pixel is turned on
+        bool imageCheck = false;
+        for (int x=0; x<8; x++)
         {
-            otherNeurons[i].Output();
-        }            
+            for (int y = 0; y < 10; y++)
+            {
+                imageCheck = imageCheck || image[x, y]; 
+            }
+        }
+
+        if (imageCheck)
+        {
+            //set answer to true because this was chosen
+            answer = true;
+            Output();
+            answer = false;
+
+            for (int i = 0; i < 9; i++)
+            {
+                otherNeurons[i].Output();
+            }
+        } else
+        {
+            GameControl.control.status = "You must turn on at least 1 pixel";
+        }                 
     }
 
     public void Output()
