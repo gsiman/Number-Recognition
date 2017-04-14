@@ -4,13 +4,11 @@ using System;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 
-//save the weights of each neuron
+//manage the weights of each neuron
 public class GameControl : MonoBehaviour
 {
-    //PlayerData data = new PlayerData ();
-
     public static GameControl control;
-    //list of units and equipment info
+    //neurons
     public NeuronHidden neuron0;    
     public NeuronHidden neuron1;
     public NeuronHidden neuron2;
@@ -21,7 +19,7 @@ public class GameControl : MonoBehaviour
     public NeuronHidden neuron7;
     public NeuronHidden neuron8;
     public NeuronHidden neuron9;
-
+    //weights and corresponding thresholds
     public float[,] weight0 = new float[3,5];
     public float threshold0;
     public float[,] weight1 = new float[3, 5];
@@ -42,7 +40,7 @@ public class GameControl : MonoBehaviour
     public float threshold8;
     public float[,] weight9 = new float[3, 5];
     public float threshold9;
-
+    //margin above threshold
     public float margin0;
     public float margin1;
     public float margin2;
@@ -53,7 +51,7 @@ public class GameControl : MonoBehaviour
     public float margin7;
     public float margin8;
     public float margin9;
-
+    //individual neuron status
     public bool update0;
     public bool update1;
     public bool update2;
@@ -67,22 +65,13 @@ public class GameControl : MonoBehaviour
 
     public string answer;
 
+    //called first, load the trained file
     void Awake()
     {
-        if (control == null)
-        {
-            DontDestroyOnLoad(gameObject);
-            control = this;
-        }
-        else if (control != this)
-        {
-            Destroy(gameObject);
-        }
-        //print(Application.dataPath);
-        //print(Application.persistentDataPath);
         Load();      
     }
 
+    //runtime loop
     void Update()
     {
         //if all the neurons are done processing
@@ -142,6 +131,7 @@ public class GameControl : MonoBehaviour
                 neuron9.Feedback();
             }
 
+            //reset the margins and neuron status
             margin0 = 0;
             margin1 = 0;
             margin2 = 0;
@@ -152,7 +142,6 @@ public class GameControl : MonoBehaviour
             margin7 = 0;
             margin8 = 0;
             margin9 = 0;
-
             update0 = false;
             update1 = false;
             update2 = false;
@@ -166,11 +155,13 @@ public class GameControl : MonoBehaviour
         }        
     }
 
+    //if clicked on save the training file
     public void OnMouseDown()
     {
         Save();
     }
 
+    //save function
     public void Save()
     {
         BinaryFormatter bf = new BinaryFormatter();
@@ -203,6 +194,7 @@ public class GameControl : MonoBehaviour
         print("Save Successful");
     }
 
+    //load function
     public void Load()
     {
         //if (File.Exists(Application.persistentDataPath + "/playerInfo.dat"))
@@ -242,6 +234,7 @@ public class GameControl : MonoBehaviour
         }
     }
 
+    //print to screen
     void OnGUI()
     {
         GUI.Label(new Rect(0, 0, 200, 200), "Only works with a 5x3(y x) matrix");

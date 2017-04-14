@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//resets the weights to default values before training
+//resets the weights to default values before training upon being clicked
 public class Reset : MonoBehaviour {
     public NeuronHidden neuron0;
     public NeuronHidden neuron1;
@@ -60,14 +60,14 @@ public class Reset : MonoBehaviour {
         neuron9.weightGradient = GameControl.control.weight9;
                 
         GameControl.control.threshold0 = neuron0.threshold = 0;
-        GameControl.control.threshold1 = neuron1.threshold = 1;
-        GameControl.control.threshold2 = neuron2.threshold = 2;
-        GameControl.control.threshold3 = neuron3.threshold = 3;
-        GameControl.control.threshold4 = neuron4.threshold = 4;
-        GameControl.control.threshold5 = neuron5.threshold = 5;
-        GameControl.control.threshold6 = neuron6.threshold = 6;
-        GameControl.control.threshold7 = neuron7.threshold = 7;
-        GameControl.control.threshold8 = neuron8.threshold = 8;
-        GameControl.control.threshold9 = neuron9.threshold = 9;
+        GameControl.control.threshold1 = neuron1.threshold = 0;
+        GameControl.control.threshold2 = neuron2.threshold = 0;
+        GameControl.control.threshold3 = neuron3.threshold = 0;
+        GameControl.control.threshold4 = neuron4.threshold = 0;
+        GameControl.control.threshold5 = neuron5.threshold = 0;
+        GameControl.control.threshold6 = neuron6.threshold = 0;
+        GameControl.control.threshold7 = neuron7.threshold = 0;
+        GameControl.control.threshold8 = neuron8.threshold = 0;
+        GameControl.control.threshold9 = neuron9.threshold = 0;
     }
 }

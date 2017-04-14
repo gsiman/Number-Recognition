@@ -22,12 +22,14 @@ public class Pixel : MonoBehaviour {
     public int x;
     public int y;
 
+    //grab the position in the matrix from the position on screen
     void Start()
     {
         x = (int)transform.position.x;
         y = (int)transform.position.y;
     }
 
+    //change color and update the neurons' matrix
 	void OnMouseDown()
     {
         if (lit)
