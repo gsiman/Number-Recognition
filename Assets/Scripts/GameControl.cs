@@ -32,12 +32,7 @@ public class GameControl : MonoBehaviour
     void Update()
     {
         //if all the neurons are done processing        
-        bool updateMain = true;
-        for (int i=0; i<10; i++)
-        {            
-            updateMain = updates[i] && updateMain;
-        }
-        if (updateMain)
+        if (Array.TrueForAll(updates, delegate (bool x) { return x; }))
         {
             //checks for the number that is most over its threshold
             int max = Array.IndexOf(margins, Mathf.Max(margins));            
