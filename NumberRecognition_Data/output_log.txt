@@ -1,0 +1,37 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7660D (ID=0x9901)
+    Vendor:   ATI
+    VRAM:     736 MB
+    Driver:   15.201.1151.1008
+Begin MonoManager ReloadAssembly
+Platform assembly: P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.130 seconds
+Platform assembly: P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: P:\ProfessionalBackUp\Programming\Unity Practice\Number-Recognition\NumberRecognition_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.683733 ms
+Load Successful
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 8c4 -> priority: 1 
+it's a 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

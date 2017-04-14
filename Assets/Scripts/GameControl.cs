@@ -68,6 +68,7 @@ public class GameControl : MonoBehaviour
     //called first, load the trained file
     void Awake()
     {
+        control = this;
         Load();      
     }
 
