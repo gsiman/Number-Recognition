@@ -8,5 +8,7 @@ To try the demo you must have 'NumberRecognition.exe' and 'NumberRecognition_Dat
 The white canvas acts as the visible pixel matrix used as an input into the neural network. Click on the pixels to toggle them on (black) or off (white). After you have drawn your input digit you may click on any of the red buttons below a number to receive an output from the neural network. If you are training the neural network, it is important that you pick the correct answer to give proper feedback to the neural network. Below is a list of how the other button behave:
 
 Save: Saves the current weights as the 'playerInfo.dat' file
+
 Calibrate: Toggles whether or not the weights will be adjusted after each test. A green button will indicate that the calibration mode is active.
+
 Reset Weights: Sets the values of the weights to the default values shown in the Reset class.
